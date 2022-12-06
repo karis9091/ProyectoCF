@@ -26,7 +26,7 @@ class OficinaIndex extends Component
         return view('livewire.oficina-index', compact('oficinas'));
     }
 
-   
+
 
 
 
