@@ -16,7 +16,7 @@ class EmpleadosCreate extends Component
         ])->get('http://127.0.0.1:8001/api/oficinas');
 
         $oficinas = $response['data'];
-        
+
         return view('livewire.empleados-create', compact('oficinas'));
     }
 
@@ -27,7 +27,5 @@ class EmpleadosCreate extends Component
         ])->post('http://127.0.0.1:8001/api/empleados',$this->data);
 
         redirect('/empleados');
-
-
     }
 }

@@ -30,7 +30,7 @@
                         </div>
                     </div>
 
-                     <div class="form-group row">
+                    <div class="form-group row">
                         <label for="inputSalario" class="col-sm-4 col-form-label">Salario</label>
                         <div class="col-sm-10">
                             <input wire:model='data.salario' type="text" class="form-control" id="inputSalario"
@@ -45,7 +45,7 @@
                             <select wire:model='data.id_oficina' value="" class="form-control" id="inputOficina"
                                 placeholder="Oficina">
                                 @foreach ($oficinas as $oficina)
-                                <option value='{{$oficina['id']}}'>{{$oficina['localidad']}}</option>
+                                    <option value='{{ $oficina['id'] }}'>{{ $oficina['localidad'] }}</option>
                                 @endforeach
                             </select>
                             <br>
@@ -56,10 +56,10 @@
 
                 </div>
             </div>
+        </form>
     </div>
 </div>
 
 
-</form>
-</div>
-</div>
+
+

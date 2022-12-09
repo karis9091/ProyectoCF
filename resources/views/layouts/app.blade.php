@@ -69,7 +69,7 @@
           <img src="{{asset('dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">DAVID PEREZ GARCIA</a>
+          <a href="#" class="d-block">Proyecto Final de David Perez y Karina Reyna</a>
         </div>
       </div>
 
@@ -100,25 +100,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="./oficina" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Oficinas</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="./empleados" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Empleados</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="./vehiculos" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Vehiculos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="./reservas" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Reservas</p>
                 </a>
